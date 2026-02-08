@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Travel Tips | Travel Gallery</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to Main Content</a>
+
+  <header class="site-header">
+    <h1>My Simple Travel Gallery</h1>
+    <p class="subtitle">Practice HTML + CSS (Grid, Flex, Accessibility)</p>
+
+    <nav class="navbar" aria-label="Main Navigation">
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a class="active" href="tips.html">Travel Tips</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="page">
+      <h2>Travel Tips (Flex Layout)</h2>
+      <p class="lead">
+        This page uses Flexbox cards. Hover over each card for a smooth effect.
+      </p>
+
+      <div class="tips-flex">
+        <article class="tip-card">
+          <h3>Pack Light</h3>
+          <p>Bring only what you need. Light bags make travel easier and safer.</p>
+          <img
+            src="https://img.freepik.com/premium-photo/hiking-backpack-wooden-bench-nature_684036-201.jpg"
+            alt="A backpack placed on a wooden bench"
+          />
+        </article>
+
+        <article class="tip-card">
+          <h3>Stay Hydrated</h3>
+          <p>Always keep a bottle of water with you, especially in hot weather.</p>
+          <img
+            src="https://images.unsplash.com/photo-1526406915894-7bcd65f60845?auto=format&fit=crop&w=900&q=60"
+            alt="A glass of water with ice on a table"
+          />
+        </article>
+
+        <article class="tip-card">
+          <h3>Plan, but Be Flexible</h3>
+          <p>Schedules help, but unexpected moments are often the best memories.</p>
+          <img
+            src="https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=900&q=60"
+            alt="A notebook and pen with a travel map"
+          />
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 - Created for CSS Assignment</p>
+  </footer>
+</body>
+</html>

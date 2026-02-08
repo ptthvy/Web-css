@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home | Travel Gallery</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to Main Content</a>
+
+  <header class="site-header">
+    <h1>My Simple Travel Gallery</h1>
+    <p class="subtitle">Practice HTML + CSS (Grid, Flex, Accessibility)</p>
+
+    <nav class="navbar" aria-label="Main Navigation">
+      <ul class="nav-list">
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="tips.html">Travel Tips</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="page">
+      <h2>Welcome</h2>
+
+      <div class="two-col">
+        <div class="card">
+          <h3>About this website</h3>
+          <p>
+            This website was created for a CSS assignment. It includes an accessible skip link,
+            a flex navigation bar, grid layouts, hover effects, and nth-child selectors.
+          </p>
+          <p>
+            The design is simple, clean, and easy to read on all devices.
+          </p>
+        </div>
+
+        <figure class="card">
+          <img
+            src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1200&q=60"
+            alt="A mountain landscape with a path and bright sky"
+          />
+          <figcaption>Nature inspires calm and focus.</figcaption>
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 - Created for CSS Assignment</p>
+  </footer>
+</body>
+</html>
